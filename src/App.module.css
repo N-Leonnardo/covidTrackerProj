@@ -1,0 +1,30 @@
+
+body{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.062) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(147.62% 147.62% at 50% 11.63%, rgba(196, 196, 196, 0) 0%, #C4C4C4 100%);
+    /* background: linear-gradient(180deg, rgba(77, 209, 31, 0.062) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(147.62% 147.62% at 50% 11.63%, rgba(178, 182, 19, 0.83) 0%, #3C4219 100%); */
+    /* background: linear-gradient(180deg, rgba(27, 1, 1, 0.062) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(147.62% 147.62% at 50% 11.63%, rgba(56, 13, 13, 0.83) 0%, #FF0B0B 100%); */
+    /* background: radial-gradient(82.87% 82.87% at 50% 50%, #F00D0D 0%, #611919 100%); */
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 370px;
+    margin-top: 50px;
+}
+
+@media (max-width: 770px){
+    .container{
+        margin: 0 10%;
+    }
+
+    .image{
+        width: 100%;     }
+
+}
